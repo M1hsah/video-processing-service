@@ -4,7 +4,7 @@ import {getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, User} 
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCWwyajafuuLTNzpIY_bLBYTwSCcmkvh_I",
+  apiKey: process.env.FIREBASE_API,
   authDomain: "video-processing-service-cf71b.firebaseapp.com",
   projectId: "video-processing-service-cf71b",
   appId: "1:669627397290:web:fceea16a8a0a7c42f8ccd3"
